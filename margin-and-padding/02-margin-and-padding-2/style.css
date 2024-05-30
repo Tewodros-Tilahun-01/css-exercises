@@ -7,14 +7,24 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding:2px;
+}
+h1{
+  margin:0;
+  padding:0;
 }
 
 .title {
+  font-size:20px;
+  font-weight:800;
+
   background: #e3f4ff;
+  
 }
 
 .content {
   background: #e3f4ff;
+
 }
 
 .button-container {
@@ -24,4 +34,14 @@ body {
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin:5px auto;
+}
+.button-container ,.content,.title{
+  padding:16px 8px;
+  margin:10px;
+}
+.button-container{
+  text-align:center;
+  
 }
